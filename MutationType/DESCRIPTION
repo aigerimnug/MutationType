@@ -1,0 +1,22 @@
+Package: MutationType
+Title: Determine and count the mutation types
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aigerim", "Nugmanova", , "aigerim.nugmanova@mail.polimi.it", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package takes the VCF file, reference genome and context length and returns a vector of SNV mutation types and their counts.
+License: GPL-2
+Depends: R(>= 3.6.0)
+Imports: VariantAnnotation, GenomicRanges, BSgenome, Biostrings,
+        IRanges, ggplot2
+Suggests: knitr, rmarkdown, BiocStyle, testthat,
+        BSgenome.Hsapiens.UCSC.hg19
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+VignetteBuilder: knitr
+biocViews: Genetics, Annotation, SNP, VariantAnnotation
+NeedsCompilation: no
+Packaged: 2024-01-15 17:56:08 UTC; aigerim.nugmanova
+Author: Aigerim Nugmanova [aut, cre] (YOUR-ORCID-ID)
+Maintainer: Aigerim Nugmanova <aigerim.nugmanova@mail.polimi.it>
